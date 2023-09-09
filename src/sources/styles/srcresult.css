@@ -1,3 +1,58 @@
 .srcr-flex-width {
     width: 65%;
 }
+
+.srcr-font-style-1 {
+    font-size: 0.8rem;
+    color: grey;
+    
+}
+
+.srcr-font-style-2 {
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.srcr-font-style-3 {
+    font-size: 0.85rem;
+    color: grey;
+}
+
+#kapasitas::before {
+    content: url(../assets/fi_users.png);
+    margin-right: 10px;
+}
+
+.srcs-padding-1 {
+    padding: 100px 0px 100px;
+}
+
+
+
+
+
+
+@media (min-width: 576px) {
+    .srcr-text-width {
+        width: 340px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .srcr-text-width {
+        width: 180px;
+    }
+
+    .srcr-flex-gap {
+        gap: 25px;
+    }
+}
+
+@media (min-width: 992px) {
+   
+}
+
+@media (min-width: 1200px) {
+    
+}
