@@ -14,6 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Banner from './sources/pages/Banner';
 import Navbar2 from './sources/pages/Navbar2';
+import SrcResult from './sources/pages/SrcResult';
 // import "./sources/styles/lp_style.css";
 // import logo_img from "./sources/assets/logo.png";
 // import btn_toggle from "./sources/assets/btn_toggle.png";
@@ -22,7 +23,7 @@ import Navbar2 from './sources/pages/Navbar2';
 function App1() {
   return (
       <>
-          <Navbar2 />
+          <SrcResult />
           
        
       </>    
