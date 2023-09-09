@@ -2,13 +2,17 @@
     background-color: #F1F3FF;
 }
 
+.ctm-width {
+    width: 385px;
+}
+
 .ctm-flex-position {
     margin: 60px 0 0 0;
     padding-top: 25px;
 }
 
 .ctm-flex-spacing {
-    padding-left: 13px;
+    padding-left: 25px;
 }
 
 .ctm-h1-font {
@@ -53,6 +57,10 @@
 
 
 @media (min-width: 768px) {
+    .ctm-width {
+        width: 100%;
+    }
+
     .ctm-flex-spacing-md {
         padding-left: 30px;
     }

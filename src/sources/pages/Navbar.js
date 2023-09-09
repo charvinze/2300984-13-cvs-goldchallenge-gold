@@ -15,7 +15,7 @@ const Navbar = () => {
                     <nav className="navbar navbar-expand-md bg-white-1 fixed-top ctm-position-1">
                         <div className="container-fluid">
                             <a className="navbar-brand ctm-logo-pst-md ctm-logo-pst-lg ctm-logo-pst-xl" href="#"><img src={logo_img} alt="logo" /></a>
-                            <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                            <button className="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                             {/* <span className="navbar-toggler-icon dark-grey-1"></span> */}
                             <img  style={{widht: "20px", height:"30px"}} src={btn_toggle} />
                             </button>                                         

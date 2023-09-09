@@ -8,7 +8,7 @@ import car from "../assets/car_banner.png";
 function Banner() {
     return(
         <>
-            <div className="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-center align-items-center ctm-flex-spacing ctm-flex-spacing-md ctm-flex-spacing-lg ctm-flex-spacing-xl ctm-bg-color-1 ctm-flex-position">
+            <div className="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-center align-items-center ctm-flex-spacing ctm-flex-spacing-md ctm-flex-spacing-lg ctm-flex-spacing-xl ctm-bg-color-1 ctm-flex-position ctm-width">
                 <div>
                     <h1 className="ctm-h1-font ctm-h1-font-md ctm-h1-font-lg ctm-h1-font-xl ">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
                     <p className="ctm-p-font ctm-p-font-md ctm-p-position">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan 

@@ -12,12 +12,12 @@ const SrcResult = () => {
 
     return(
         <>
-            <div className="d-flex justify-content-center align-items-center ">
-                <div className="d-flex flex-column border border-1">
+            <div className="d-flex justify-content-center align-items-center srcs-spacing-margin">
+                <div className="d-flex flex-column border border-1 pt-3 pb-3 ps-4 pe-4 rounded-4 srcr-flex-width" style={{backgroundColor:"white"}}>
                     <div className="justify-content-start align-items-start">
-                        <h6>Pencarianmu1</h6>
+                        <h6 className="srcr-spacing-1">Pencarianmu</h6>
                     </div>
-                    <div className="d-flex flex-column flex-md-row flex-lg-row flex-xl-row gap-3" >
+                    <div className="d-flex flex-column flex-md-row flex-lg-row flex-xl-row gap-3 justify-content-center align-items-center" >
                         <div className="d-md-flex d-lg-flex d-xl-flex flex-md-column flex-lg-column flex-xl-column">
                             <div><label className="srcr-font-style-3" for="nama_mbl">Nama Mobil</label></div>
                             <div><input id="nama_mbl" className="srcr-text-width" type="text" value="" style={{backgroundColor: "grey", borderStyle: "none"}} readOnly /></div>
@@ -38,7 +38,7 @@ const SrcResult = () => {
                 </div>
             </div>
 
-            <div className="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-center align-items-center mt-5 srcr-flex-gap">
+            <div className="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-center align-items-center mt-5 ps-3 pe-3 gap-4 srcr-flex-gap srcs-spacing-margin-2">
                 <div className="d-flex flex-column">
                     <div>
                         <h6>Tentang Paket</h6>

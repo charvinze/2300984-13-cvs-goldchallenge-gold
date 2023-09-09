@@ -21,7 +21,7 @@ const WhyUs = () => {
                     <p className="wyu-font-bold-1">Mengapa harus pilih Binar Car Rental?</p>
                 </div>
             </div>
-            <div className="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-center align-items-center">
+            <div className="d-flex flex-column flex-lg-row flex-xl-row justify-content-center align-items-center">
                 
                 <div class="card text-bg-white mb-3 ms-md-2 ms-lg-2 ms-xl-2 me-md-2 me-lg-2 me-xl-2" style={{maxWidth: "18rem", backgroundColor: "white"}}>
                     <div class="card-header" style={{backgroundColor: "white", borderStyle: "none"}}><img src={completeimg} /></div>

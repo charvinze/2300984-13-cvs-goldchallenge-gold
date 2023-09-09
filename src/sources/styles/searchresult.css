@@ -1,16 +1,16 @@
 
-.srcr-font-style-1 {
+.srcrt-font-style-1 {
     font-size: 0.8rem;
     color: grey;
     
 }
 
-.srcr-font-style-2 {
+.srcrt-font-style-2 {
     font-size: 0.9rem;
     color: grey;
 }
 
-.srcr-font-style-3 {
+.srcrt-font-style-3 {
     font-size: 0.85rem;
     color: grey;
 }
@@ -24,7 +24,7 @@
     padding: 50px 0px 50px;
 }
 
-.srcr-text-width {
+.srcrt-text-width {
     width: 250px;
 }
 
@@ -42,26 +42,26 @@
 
 
 @media (min-width: 576px) {
-    .srcr-text-width {
+    .srcrt-text-width {
         width: 340px;
     }
 }
 
 
 @media (min-width: 768px) {
-    .srcr-flex-width {
+    .srcrt-flex-width {
         width: 97%;
     }
 
-    .srcr-text-width {
+    .srcrt-text-width {
         width: 180px;
     }
 
-    .srcr-flex-gap {
+    .srcrt-flex-gap {
         gap: 25px;
     }
 
-    .srcr-spacing-1 {
+    .srcrt-spacing-1 {
         padding-left: 0px;
     }
 
@@ -71,19 +71,19 @@
 }
 
 @media (min-width: 992px) {
-    .srcr-flex-width {
+    .srcrt-flex-width {
         width: 75%;
     }
 
-    .srcr-text-width {
+    .srcrt-text-width {
         width: 180px;
     }
 
-    .srcr-flex-gap {
+    .srcrt-flex-gap {
         gap: 25px;
     }
 
-    .srcr-spacing-1 {
+    .srcrt-spacing-1 {
         padding-left: 0px;
     }
    
@@ -98,11 +98,11 @@
         margin-bottom: 200px;
     }
 
-    .srcr-flex-width {
+    .srcrt-flex-width {
         width: 75%;
     }
 
-    .srcr-text-width {
+    .srcrt-text-width {
         width: 180px;
     }
 
@@ -110,11 +110,11 @@
         padding: 40px 0px 40px;
     }
 
-    .srcr-flex-gap {
+    .srcrt-flex-gap {
         gap: 25px;
     }
 
-    .srcr-spacing-1 {
+    .srcrt-spacing-1 {
         padding-left: 64px;
     }
 }

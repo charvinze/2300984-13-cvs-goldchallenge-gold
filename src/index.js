@@ -15,6 +15,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Banner from './sources/pages/Banner';
 import Navbar2 from './sources/pages/Navbar2';
 import SrcResult from './sources/pages/SrcResult';
+import SrcResultPage from './sources/pages/SrcResultPage';
+import SearchResult from './sources/pages/SearchResult';
 // import "./sources/styles/lp_style.css";
 // import logo_img from "./sources/assets/logo.png";
 // import btn_toggle from "./sources/assets/btn_toggle.png";
@@ -23,8 +25,7 @@ import SrcResult from './sources/pages/SrcResult';
 function App1() {
   return (
       <>
-          <SrcResult />
-          
+          <SearchResult />
        
       </>    
   );

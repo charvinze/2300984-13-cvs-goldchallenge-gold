@@ -7,10 +7,10 @@ import "../styles/faq.css";
 const Faq = () => {
     return(
         <>
-            <div className="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-center faq-flex-width">
-                <div className="d-flex flex-column flex-md-row flex-lg-row flex-xl-row justify-content-center align-items-center 
+            <div className="d-flex flex-column flex-lg-row flex-xl-row justify-content-center align-items-center faq-flex-width ps-3">
+                <div className="d-flex flex-column flex-lg-row flex-xl-row justify-content-center align-items-center 
                 align-items-md-start align-items-lg-start align-items-xl-start faq-flex-gap faq-flex-space">
-                    <div className="d-flex flex-column ">
+                    <div className="d-flex flex-column align-items-md-center justify-content-md-center w-100">
                         <h4>Frequently Asked Questions</h4>
                         <p className="">Lorem ipsum dolor sit amet, consectetur adispicing</p>
                     </div>
