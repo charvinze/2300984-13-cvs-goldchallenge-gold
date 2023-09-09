@@ -1,0 +1,129 @@
+.faq-flex-space {
+    margin: 80px 0px 100px;
+}
+
+.faq-acc-width {
+    width: 370px;
+}
+
+
+.faq-acc-space {
+    margin-bottom: 25px;
+}
+
+.faq-acc-style {
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 7px;
+}
+
+.faq-acc-style-btn {
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 7px;
+}
+
+
+@media (min-width: 576px) {
+
+}
+
+
+@media (min-width: 768px) {
+    .faq-flex-gap {
+        gap: 60px;
+    }
+
+    .faq-flex-space {
+        margin: 80px 0px 150px;
+    }
+
+    .faq-flex-width {
+        max-width: 100%;
+    }
+    
+    .faq-acc-width {
+        width: 370px;
+    }
+
+   
+    .faq-acc-space {
+        margin-bottom: 25px;
+    }
+
+    .faq-acc-style {
+        border: 1px solid rgb(174, 174, 174);
+        border-radius: 7px;
+    }
+
+    .faq-acc-style-btn {
+        border: 1px solid rgb(174, 174, 174);
+        border-radius: 7px;
+    }
+  
+}
+
+@media (min-width: 992px) {
+    .faq-flex-gap {
+        gap: 90px;
+    }
+
+    .faq-flex-space {
+        margin: 80px 0px 150px;
+    }
+
+    .faq-flex-width {
+        max-width: 100%;
+    }
+    
+    .faq-acc-width {
+        width: 470px;
+    }
+
+   
+    .faq-acc-space {
+        margin-bottom: 25px;
+    }
+
+    .faq-acc-style {
+        border: 1px solid rgb(174, 174, 174);
+        border-radius: 7px;
+    }
+
+    .faq-acc-style-btn {
+        border: 1px solid rgb(174, 174, 174);
+        border-radius: 7px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .faq-flex-gap {
+        gap: 150px;
+    }
+
+    .faq-flex-space {
+        margin: 80px 0px 150px;
+    }
+
+    .faq-flex-width {
+        max-width: 100%;
+    }
+    
+    .faq-acc-width {
+        width: 600px;
+    }
+
+   
+    .faq-acc-space {
+        margin-bottom: 25px;
+    }
+
+    .faq-acc-style {
+        border: 1px solid rgb(174, 174, 174);
+        border-radius: 7px;
+    }
+
+    .faq-acc-style-btn {
+        border: 1px solid rgb(174, 174, 174);
+        border-radius: 7px;
+    }
+}

@@ -1,0 +1,51 @@
+.sbr-bg-blue {
+    background-color: #0D28A6;
+
+}
+
+.sbr-btn-style {
+    background-color: #5CB85F;
+    border-style: none;
+    color: white;
+    font-size: 0.8rem;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.sbr-maxwidth {
+    max-width: 18rem;
+}
+
+
+@media (min-width: 576px) {
+    
+}
+
+
+@media (min-width: 768px) {
+    .sbr-maxwidth {
+        max-width: 35rem;
+    }
+
+    .sbr-padding {
+        padding: 40px 100px 10px;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .sbr-maxwidth {
+        max-width: 40rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sbr-maxwidth {
+        max-width: 195rem;
+    }
+}

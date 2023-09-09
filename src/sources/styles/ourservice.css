@@ -1,0 +1,90 @@
+.os-flex-space {
+    padding: 120px 0px 0 17px;
+    gap: 30px;
+}
+
+.os-img-size {
+    width: 360px;
+    height: auto; 
+    margin: 0px 0px 0px 0px;
+    
+}
+
+.os-font-bold-1 {
+    font-weight: bold;
+}
+
+.os-font-style-1 {
+    font-size: 0.8rem;
+}
+
+.os-list-space {
+    margin-left: -33px;
+}
+
+.os-list-style {
+    list-style: none;
+    font-size: 0.85rem;
+}
+
+.os-list-style li {
+    line-height: 28px;
+    
+}
+
+.os-list-style li::before {
+    width: 20px;
+    height: 20px;
+    content: "";
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../assets/checklist.png);
+    margin-right: 10px;
+}
+
+
+@media (min-width: 576px) {
+    .os-img-size {
+        width: 370px;
+        height: auto; 
+        margin: 0px 0px 0px 0px;
+        
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    .os-flex-space {
+        padding: 105px 0px 0 17px;
+        gap: 30px;
+    }
+
+    .os-img-size {
+        width: 320px;
+        height: auto; 
+        margin: 0px 0px 0px 0px;
+        
+    }
+}
+
+@media (min-width: 992px) {
+    .os-flex-space {
+        padding: 105px 0px 0 17px;
+        gap: 50px;
+    }
+
+    .os-img-size {
+        width: 380px;
+        height: auto; 
+        margin: 0px 0px 0px 0px;
+        
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    
+    
+}

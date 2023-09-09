@@ -1,0 +1,44 @@
+.ftr-w {
+    width: 85%;
+}
+
+
+@media (min-width: 576px) {
+
+}
+
+
+@media (min-width: 768px) {
+   .ftr-st-1 {
+       font-size: 0.1 rem;
+   }
+
+   .ftr-gap {
+    gap: 50px;
+}
+}
+
+@media (min-width: 992px) {
+    .ftr-st-1 {
+        font-size: 0.1 rem;
+    }
+
+    .ftr-gap {
+        gap: 65px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ftr-flex-position {
+        padding-bottom: 40px;
+    }
+
+    .ftr-st-1 {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    .ftr-gap {
+        gap: 80px;
+    }
+}

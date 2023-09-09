@@ -1,0 +1,80 @@
+.bg-white-1 {
+    background-color: #F1F3FF !important;
+} 
+
+.txt-bold-1 {
+    font-weight: bolder;
+}
+
+.dark-1 {
+    color: ff0000;
+}
+
+.dark-grey-1 {
+    /* background-color: #333; */
+    border-color: #333; 
+      
+}
+
+.logo-size {
+    width: "100px"; 
+    height: "34px";
+}
+
+.ctm-nav-gap {
+    gap: 32px;
+}
+
+.ctm-font-size-1 {
+    font-size: 0.9rem;
+}
+
+
+@media (min-width: 576px) {
+
+}
+
+
+@media (min-width: 768px) {
+    .ctm-logo-pst-md {
+        margin: 0 0 0 40px;
+    }
+    
+    .ctm-nav-pst-md {
+        margin: 0px 15px 0 0;
+    }
+}
+
+@media (min-width: 992px) {
+    /* .ctm-w {
+        width: 30%;
+    } */
+
+    /* .ctm-logo-pst-lg {
+        margin: 5px 0 0 80px;
+    }
+
+    .ctm-nav-pst-lg {
+        margin: 0px 120px 0 0;
+    } */
+}
+
+@media (min-width: 1200px) {
+    .ctm-position-1 {
+        padding-top: 18px;
+        padding-left: 41px;
+        padding-right: 190px;
+    }
+
+    /* .ctm-w {
+        width: 30%;
+    } */
+
+    /* .ctm-logo-pst-xl {
+        margin: 8px 0 0 100px;
+    }
+
+    .ctm-nav-pst-xl {
+        margin: 8px 170px 0 0;
+    } */
+}
