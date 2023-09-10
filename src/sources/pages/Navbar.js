@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // import Banner from './Banner';
@@ -8,13 +9,19 @@ import btn_toggle from "../assets/btn_toggle.png";
 
 
 const Navbar = () => {
+    const navigate = useNavigate();
+
+    const navigateToHome = () => {
+        navigate("/");
+    }
+
   return (
         <>
             <div className='d-flex justify-content-center align-items-center' >
                 <div className='d-flex'>
                     <nav className="navbar navbar-expand-md bg-white-1 fixed-top ctm-position-1">
                         <div className="container-fluid">
-                            <a className="navbar-brand ctm-logo-pst-md ctm-logo-pst-lg ctm-logo-pst-xl" href="#"><img src={logo_img} alt="logo" /></a>
+                            <a className="navbar-brand ctm-logo-pst-md ctm-logo-pst-lg ctm-logo-pst-xl" href="#"><img src={logo_img} alt="logo" onClick={navigateToHome} /></a>
                             <button className="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                             {/* <span className="navbar-toggler-icon dark-grey-1"></span> */}
                             <img  style={{widht: "20px", height:"30px"}} src={btn_toggle} />
