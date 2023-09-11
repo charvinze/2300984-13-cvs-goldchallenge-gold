@@ -7,7 +7,6 @@ import Testimonial from './Testimonial';
 import SmallBanner from './SmallBanner';
 import Faq from './Faq';
 import Footer from './Footer';
-import ModalSrc from './ModalSrc';
 import ScrCar from './SrcCar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';

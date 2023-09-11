@@ -22,7 +22,7 @@ function Banner() {
                     <p className="ctm-p-font ctm-p-font-md ctm-p-position">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan 
                         harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
                     </p>
-                    <button className="ctm-btn-style" onClick={navigateToSearchCar}>Mulai Sewa Mobil</button>
+                    <button className="ctm-btn-style" onClick={navigateToSearchCar} >Mulai Sewa Mobil</button>
                 </div>
                 <div>
                     <img className="ctm-img-size ctm-img-size-md ctm-img-size-lg ctm-img-size-xl ctm-img-position ctm-img-position-xl" src={car}/>

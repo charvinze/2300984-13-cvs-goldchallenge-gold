@@ -7,7 +7,7 @@ import serviceimg from "../assets/img_service (1).png"
  const OurService = () => {
         return(
             <>
-                <div className="d-flex flex-column flex-lg-row flex-xl-row os-flex-space justify-content-center align-items-center">
+                <div id="our-services" className="d-flex flex-column flex-lg-row flex-xl-row os-flex-space justify-content-center align-items-center">
                     <div >
                         <img className="os-img-size" src={serviceimg} alt="Our Service Picture" />
                     </div>

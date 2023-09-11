@@ -11,7 +11,7 @@ import profesionalimg from "../assets/icon_professional_green.png";
 const WhyUs = () => {
     return(
         <>
-            <div className="d-flex flex-column justify-content-center align-items-center wyu-flex1-space">
+            <div id="why-us" className="d-flex flex-column justify-content-center align-items-center wyu-flex1-space">
                 <div style={{marginBottom: "20px", fontSize:""}}>
                     <h4 className="wyu-font-bold-1">
                             Why Us?

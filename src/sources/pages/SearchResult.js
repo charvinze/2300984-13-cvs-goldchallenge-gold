@@ -1,10 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router";
 import "../styles/searchresult.css";
 import car1 from "../assets/car1.png";
 
 
 
 const SearchResult = () => {
+    const navigate = useNavigate();
+
+    const navigateToHome = () => {
+        navigate("/carresultdetail");
+    }
 
     const array1 = [
         {
@@ -28,16 +34,16 @@ const SearchResult = () => {
                             <input id="nama-mbl" className="form-control srct-txt-size " type="text" />
                         </div>
                         <div className="d-flex flex-column srct-font-style">
-                            <label className="srct-fs-2" for="nama-mbl">Nama Mobil</label>
-                            <input id="nama-mbl" className="form-control srct-txt-size " type="text" />
+                            <label className="srct-fs-2" for="harga-mbl">Harga</label>
+                            <input id="harga-mbl" className="form-control srct-txt-size " type="text" />
                         </div>
                         <div className="d-flex flex-column srct-font-style">
-                            <label className="srct-fs-2" for="nama-mbl">Nama Mobil</label>
-                            <input id="nama-mbl" className="form-control srct-txt-size " type="text" />
+                            <label className="srct-fs-2" for="kategori-mbl">Kategori</label>
+                            <input id="kategori-mbl" className="form-control srct-txt-size " type="text" />
                         </div>
                         <div className="d-flex flex-column srct-font-style">
-                            <label className="srct-fs-2" for="nama-mbl">Nama Mobil</label>
-                            <input id="nama-mbl" className="form-control srct-txt-size " type="text" />
+                            <label className="srct-fs-2" for="status-mbl">Status</label>
+                            <input id="status-mbl" className="form-control srct-txt-size " type="text" />
                         </div>
                         <div className="d-flex justify-content-center align-items-center">
                             <button className="srct-fs-2 srct-btn-style srct-btn-position border border-primary">Edit</button>
@@ -57,7 +63,7 @@ const SearchResult = () => {
                                 <h6 class="card-title">Innova</h6>
                                 <p class="card-text">Rp. 500.000/hari</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do elusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <a href="#" class="btn btn-success" style={{backgroundColor: "#5CB85F", width: "100%"}}>Pilih Mobil</a>
+                                <a href="#" class="btn btn-success" onClick={navigateToHome} style={{backgroundColor: "#5CB85F", width: "100%"}}>Pilih Mobil</a>
                             </div>
                             </div>
                         </div>

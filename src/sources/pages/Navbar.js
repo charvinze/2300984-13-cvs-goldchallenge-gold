@@ -15,13 +15,54 @@ const Navbar = () => {
         navigate("/");
     }
 
+    const navigateToOurServices = () => {
+        navigate("/");
+        setTimeout(() => {
+            const doc = document.getElementById("our-services");
+            if (doc) {
+                doc.scrollIntoView({behavior: "smooth"});
+            }
+        }, 100);
+    }
+
+    const navigateToWhyUs = () => {
+        navigate("/"); 
+        setTimeout(() => {
+            const doc = document.getElementById("why-us");
+            if (doc) {
+                doc.scrollIntoView({ behavior: "smooth" });
+            }
+        }, 100);    
+    }
+
+    const navigateToTestimonial = () => {
+        navigate("/"); 
+        setTimeout(() => {
+            const doc = document.getElementById("testimoni");
+            if (doc) {
+                doc.scrollIntoView({ behavior: "smooth" });
+            }
+        }, 100);    
+    }
+
+    const navigateToFAQ = () => {
+        navigate("/"); 
+        setTimeout(() => {
+            const doc = document.getElementById("the-faq");
+            if (doc) {
+                doc.scrollIntoView({ behavior: "smooth" });
+            }
+        }, 100);    
+    }
+
+
   return (
         <>
             <div className='d-flex justify-content-center align-items-center' >
                 <div className='d-flex'>
                     <nav className="navbar navbar-expand-md bg-white-1 fixed-top ctm-position-1">
                         <div className="container-fluid">
-                            <a className="navbar-brand ctm-logo-pst-md ctm-logo-pst-lg ctm-logo-pst-xl" href="#"><img src={logo_img} alt="logo" onClick={navigateToHome} /></a>
+                            <a className="navbar-brand ctm-logo-pst-md ctm-logo-pst-lg ctm-logo-pst-xl" href="#" onClick={navigateToHome}><img src={logo_img} alt="logo" /></a>
                             <button className="navbar-toggler me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                             {/* <span className="navbar-toggler-icon dark-grey-1"></span> */}
                             <img  style={{widht: "20px", height:"30px"}} src={btn_toggle} />
@@ -34,16 +75,16 @@ const Navbar = () => {
                                 <div className="container-fluid offcanvas-body">
                                     <ul className="navbar-nav justify-content-end  flex-grow-1 pe-3 ctm-nav-gap ctm-nav-pst-md ctm-nav-pst-lg ctm-nav-pst-xl">
                                     <li  className="nav-item">
-                                        <a style={{color: "black"}} className="nav-link active ctm-font-size-1 " aria-current="page" href="#">Our Services</a>
+                                        <a style={{color: "black"}} className="nav-link active ctm-font-size-1 "  aria-current="page" href="#" onClick={navigateToOurServices}><span>Our Services</span></a>
                                     </li>
                                     <li className="nav-item">
-                                        <a style={{color: "black"}} className="nav-link ctm-font-size-1" href="#">Why Us</a>
+                                        <a style={{color: "black"}} className="nav-link ctm-font-size-1" href="#" onClick={navigateToWhyUs}>Why Us</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a style={{color: "black"}} className="nav-link ctm-font-size-1" href="#">Testimonial</a>
+                                        <a style={{color: "black"}} className="nav-link ctm-font-size-1" href="#" onClick={navigateToTestimonial}>Testimonial</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a style={{color: "black"}} className="nav-link ctm-font-size-1" href="#">FAQ</a>
+                                        <a style={{color: "black"}} className="nav-link ctm-font-size-1" href="#" onClick={navigateToFAQ}>FAQ</a>
                                     </li>
                                     </ul>
                                 </div>
